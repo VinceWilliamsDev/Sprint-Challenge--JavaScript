@@ -50,12 +50,11 @@ class CubeMaker extends CuboidMaker {
         super(attrs)
     }
     cubeVolume() {
-        let volume = Math.pow(this.width, 3);
-        return volume;
+        return Math.pow(this.width, 3);
+        
     }
     cubeSurfaceArea() {
-        let surfaceArea =  6 * Math.pow(this.width, 2);
-        return surfaceArea;
+        return  6 * Math.pow(this.width, 2);
     }
 }
 
